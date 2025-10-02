@@ -63,7 +63,7 @@ fun main(){
         }
         threads.add(thread)
     }
-
+ 
     val driverThread = thread {
         repeat(simulationTime) {
             driver.move()
