@@ -1,4 +1,4 @@
-package laba1
+package `Новая папка`
 
 import kotlin.random.Random
 import kotlin.math.*
