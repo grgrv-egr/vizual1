@@ -1,3 +1,5 @@
+package laba1
+
 import kotlin.random.Random
 import kotlin.math.*
 
