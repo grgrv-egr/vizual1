@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 .gradle
 /local.properties
@@ -13,3 +14,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+=======
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
+
+.vscode/
+>>>>>>> f2b981424a5d89e107e0ff3a15aa2251d0ff4754
