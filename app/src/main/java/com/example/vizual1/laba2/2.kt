@@ -2,7 +2,7 @@ import kotlin.random.Random
 import kotlin.math.*
 import kotlin.concurrent.thread
 
-open class Human {
+open class Human1 {
     var name: String = ""
     var surname: String = ""
     var second_name: String = ""
@@ -33,7 +33,7 @@ open class Human {
     }
 }
 
-class Driver : Human {
+class Driver1 : Human1 {
     constructor(_name: String, _surname: String, _second: String, _age: Int, _speed: Int)
             : super(_name, _surname, _second, _age, _speed)
 
@@ -45,12 +45,12 @@ class Driver : Human {
 
 fun main() {
     val people = arrayOf(
-        Human("Петя", "Иванов", "Петрович", 20, 5),
-        Human("Анна", "Петрова", "Игоревна", 22, 4),
-        Human("Виктор", "Сидоров", "Алексеевич", 21, 6),
-        Human("Ольга", "Васильева", "Сергеевна", 19, 3)
+        Human1("Петя", "Иванов", "Петрович", 20, 5),
+        Human1("Анна", "Петрова", "Игоревна", 22, 4),
+        Human1("Виктор", "Сидоров", "Алексеевич", 21, 6),
+        Human1("Ольга", "Васильева", "Сергеевна", 19, 3)
     )
-    val driver = Driver("Егор", "Григорьев", "Васильевич", 35, 8)
+    val driver = Driver1("Егор", "Григорьев", "Васильевич", 35, 8)
     val simulationTime = 5
     val threads = mutableListOf<Thread>()
     for (person in people) {

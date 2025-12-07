@@ -1,7 +1,7 @@
 import kotlin.random.Random
 import kotlin.math.*
 
-class Human
+class Human0
 {
     var name: String = ""
     var surname: String = ""
@@ -42,10 +42,10 @@ class Human
 
 fun main(){
     val people = arrayOf(
-        Human("Петя", "Иванов", "Петрович", 20, 5, 444),
-        Human("Анна", "Петрова", "Игоревна", 22, 4, 442),
-        Human("Виктор", "Сидоров", "Алексеевич", 21, 6, 443),
-        Human("Ольга", "Васильева", "Сергеевна", 19, 3, 441)
+        Human0("Петя", "Иванов", "Петрович", 20, 5, 444),
+        Human0("Анна", "Петрова", "Игоревна", 22, 4, 442),
+        Human0("Виктор", "Сидоров", "Алексеевич", 21, 6, 443),
+        Human0("Ольга", "Васильева", "Сергеевна", 19, 3, 441)
     )
     val simulationTime = 10
     for (second in 1..simulationTime) {

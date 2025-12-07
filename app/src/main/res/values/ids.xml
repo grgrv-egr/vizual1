@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewTime" type="id" />
+    <item name="musicListView" type="id" />
+    <item name="textViewTitle" type="id" />
+    <item name="seekBarVolume" type="id" />
+    <item name="seekBarValue" type="id" />
+    <item name="seekBarPosition" type="id" />
+    <item name="controlsLayout" type="id" />
+    <item name="buttonRewind" type="id" />
+    <item name="buttonPlayPause" type="id" />
+    <item name="buttonStop" type="id" />
+    <item name="buttonForward" type="id" />
+</resources>
