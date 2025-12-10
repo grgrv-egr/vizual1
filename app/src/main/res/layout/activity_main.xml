@@ -30,4 +30,12 @@
         android:layout_marginBottom="16dp"
         android:padding="16dp" />
 
+    <Button
+        android:id="@+id/bLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp" />
+
 </LinearLayout>

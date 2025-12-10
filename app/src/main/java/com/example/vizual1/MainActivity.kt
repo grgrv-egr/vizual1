@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
         btn2.setOnClickListener {
             startActivity(android.content.Intent(this, MediaPlayerActivity::class.java))
         }
+        val btn3 = findViewById<Button>(R.id.bLocation)
+        btn3.setOnClickListener {
+            startActivity(android.content.Intent(this, LocationActivity::class.java))
+        }
     }
 }
